@@ -1,0 +1,61 @@
+*{
+    background-color:lavender;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+h1{
+    color: black;
+}
+.parrafo-1{
+    font-style: italic;
+    font-weight: bold;
+    color:gray;
+}
+body{
+    font-family: 'Prompt', sans-serif;
+    color: dimgray;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+main section{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 20px;
+}
+.foto{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 50%;
+    padding-left: 3%;
+    height: 70vh;
+}
+footer{
+    font-size: small;
+    padding-top: 2%;
+    font-size: 16px;
+}
+@media(max-width: 600px){
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+    main section{
+        flex-direction: column;
+        width: 100%;
+    }
+    .foto{
+        flex-direction: column;
+        width: 100%;
+        padding-left: 0%;
+        height: 30vh;
+    }
+    footer{
+        font-size: 14px;
+    }
+}
