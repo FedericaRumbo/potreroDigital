@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+
+}
+
+/*iconos nav*/
+.cuenta {
+    cursor: pointer;
+}
+
+.carrito {
+    cursor: pointer;
+}
+
+#icons-nav {
+    display: flex;
+    justify-content: center;
+}
+
+/*header*/
+header {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.titulo-header {
+    color: rgb(207, 123, 255);
+    font-family: 'Shrikhand', cursive;
+}
+
+video {
+    width: 100%;
+}
+
+.absolute {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.absolute h1 {
+    color: #fff;
+    font-size: 28px;
+    z-index: 100;
+    margin-bottom: 30px;
+    font-family: 'Shrikhand', cursive;
+}
+
+h1::after {
+    display: block;
+    width: 70%;
+    height: 2px;
+    content: "";
+    margin: auto;
+    margin-top: 5px;
+    background: rgb(224, 171, 255);
+}
+
+.absolute h4 {
+    color: #ffffff;
+    font-size: 25px;
+    margin-top: -20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin-top: -6px;
+    background: rgba(46, 46, 46, 0.349);
+}
+
+/*scroll secciones*/
+#bikinis {
+    scroll-margin-top: 8ex;
+}
+
+#enterizas {
+    scroll-margin-top: 8ex;
+}
+
+/*titulo secciones*/
+section div h4 {
+    font-family: 'Shrikhand', cursive;
+    color: rgb(211, 135, 255);
+    font-size: 25px;
+    opacity: .8;
+}
+
+/*boton "ver mas"*/
+.btn1 {
+    height: 30px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color: rgb(211, 135, 255);
+    color: #000;
+    border-radius: 60px;
+}
+
+.btn1:hover {
+    background-color: rgb(236, 116, 240);
+    transition: 0.5s;
+}
+
+/*columnas*/
+.card:hover {
+    box-shadow: 0px 2px 13px 2px rgb(211, 135, 255);
+    -webkit-box-shadow: 0px 2px 13px 2px rgb(211, 135, 255);
+    -moz-box-shadow: 0px 2px 13px 2px rgb(211, 135, 255);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+
+.card-body {
+    cursor: pointer;
+
+}
+
+
+.fa-plus-circle {
+    cursor: pointer;
+    color: rgb(198, 99, 255);
+
+}
+
+/*footer*/
+
+.ayuda-footer {
+    font-family: 'Shrikhand', cursive;
+    color: rgb(211, 135, 255);
+    font-size: 20px;
+}
+
+.nav-footer {
+    font-family: 'Shrikhand', cursive;
+    color: rgb(211, 135, 255);
+    font-size: 20px;
+}
+
+.contacto-footer {
+    font-family: 'Shrikhand', cursive;
+    color: rgb(211, 135, 255);
+    font-size: 20px;
+}
+
+.fa-instagram {
+    color: #fff;
+}
+
+.fa-instagram:hover {
+    color: rgb(211, 135, 255);
+}
+
+.fa-facebook-f {
+    color: #fff;
+}
+
+.fa-facebook-f:hover {
+    color: rgb(211, 135, 255);
+}
+
+.fa-pinterest {
+    color: #fff;
+}
+
+.fa-pinterest:hover {
+    color: rgb(211, 135, 255);
+}
+
+#envios-footer {
+    color: #fff;
+}
+
+#envios-footer:hover {
+    color: rgb(211, 135, 255);
+}
+
+#bikinis-footer {
+    color: #fff;
+}
+
+#bikinis-footer:hover {
+    color: rgb(211, 135, 255);
+}
+
+#enteras-footer {
+    color: #fff;
+}
+
+#enteras-footer:hover {
+    color: rgb(211, 135, 255);
+}
+
+.fa-phone-alt {
+    color: #fff;
+}
+
+.fa-envelope {
+    color: #fff;
+}
+
+.fa-map-marker-alt {
+    color: #fff;
+}
+
+
+/*media queries*/
+@media only screen and (min-width: 768px) {
+    .absolute h1 {
+        font-size: 60px;
+    }
+
+    .absolute h4 {
+        font-size: 30px;
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+    .abdolute h1 {
+        font-size: 100px;
+    }
+
+    .absolute h4 {
+        font-size: 50px;
+    }
+
+    #bikinis-productos {
+        font-size: 30px;
+    }
+
+    #enterizas-productos {
+        font-size: 30px;
+    }
+
+}
